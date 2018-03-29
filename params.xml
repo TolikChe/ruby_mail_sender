@@ -1,0 +1,20 @@
+﻿<params>
+	<sender_params>
+		<address>ttp2@list.ru</address>
+		<login>ttp2</login>
+		<password>echo1984mail</password>
+		<domain>mail.ru</domain>
+		<smtp_host>smtp.list.ru</smtp_host>
+		<smtp_port>587</smtp_port>
+	</sender_params>
+	<receiver_address_list_file>to_addresses.xml</receiver_address_list_file>
+	<message_params>
+		<topic>Тестовое письмо</topic>
+		<encoding>utf-8</encoding>
+		<attachment_list>
+			<attachment>c:\Users\echo\attach2.txt</attachment>
+			<attachment>c:\Users\echo\Documents\Ruby Projects\attach1.txt</attachment>
+		</attachment_list>
+		<message_file>message.txt</message_file>
+	</message_params>
+</params>

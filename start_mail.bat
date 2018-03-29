@@ -1,0 +1,1 @@
+ruby -w mail_sender.rb >> txt.txt
